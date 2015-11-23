@@ -1,0 +1,60 @@
+.participants .add {
+	background-image: url('../images/colla/icth_add_reg_16.png');
+}
+
+.participants .remove {
+	background-image: url('../images/colla/icth_delete_16.png');
+}
+
+.messages .new {
+	background-image: url('../images/colla/ic_chat32_reg.png');
+}
+
+.messages .addlink {
+	background-image: url('../images/colla/ic_relat32_reg.png');
+}
+
+.messages {
+	margin-left: 20px;
+}
+
+.user-small {
+	display: inline;
+}
+
+.colla-msg-panel-body {
+	height: 100%;
+}
+
+.colla-messageentry {
+	margin: 2px 3px;
+	border-bottom: 1px solid gray;
+}
+
+.colla-messageentry .icon {
+	float: left;
+}
+
+.colla-messageentry .author {
+	margin-right: 3px;
+}
+
+.colla-messageentry .timestamp {
+	display: block;
+	margin-top: 2px;
+}
+
+.colla-messageentry .message {
+	margin-left: 38px;
+}
+
+.colla-messageentry .text {
+	display: inline;
+}
+
+.clearfloat {
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}

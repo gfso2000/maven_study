@@ -1,0 +1,120 @@
+
+/* Filename : recordlist.css */
+
+/* Note:
+ * This file will be merged with hpov.css
+ */
+
+/* ExtJS Recordlist CSS overrides */
+
+.x-grid3-row-selected table{
+  background-color: #FFCC66 !important;
+}
+
+/* Forces the record list headers to be left aligned */
+.x-grid3-hd {
+  text-align: left !important;
+}
+
+/* Inherit column font-style from Row fontstyle */
+.x-grid3-row td{
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/* Rowcolor */
+.grid-rowcolor-black table{
+  color:#000000;
+}
+
+.grid-rowcolor-white table{
+  color:#ffffff;
+}
+
+.grid-rowcolor-gray table{
+  color:#808080;
+}
+
+.grid-rowcolor-light_gray table{
+  color:#e0e0e0;
+}
+
+.grid-rowcolor-dark_gray table{
+  color:#404040;
+}
+
+.grid-rowcolor-red table{
+  color: #ff0000;
+}
+
+.grid-rowcolor-dark_red table{
+  color: #990000;
+}
+
+.grid-rowcolor-green table{
+  color: #00ff00;
+}
+
+.grid-rowcolor-dark_green table{
+  color: #009900;
+}
+
+.grid-rowcolor-blue table{
+  color: #0000ff;
+}
+
+.grid-rowcolor-dark_blue table{
+  color: #003399;
+}
+
+.grid-rowcolor-yellow table{
+  color: #0000ff;
+}
+
+.grid-rowcolor-light_yellow table{
+  color: #ffff00;
+}
+
+.grid-rowcolor-cyan table{
+  color: #00ffff;
+}
+
+.grid-rowcolor-magenta table{
+  color: #ff00ff;
+}
+
+.grid-rowcolor-purple table{
+  color: #990099;
+}
+
+.grid-rowcolor-teal table{
+  color: #6699cc;
+}
+
+
+/* Row fontstyle */
+.grid-fontstyle-italic div{
+  font-style: italic !important;
+}
+
+.grid-fontstyle-normal div{
+  font-style: normal !important;
+}
+
+.grid-fontweight-bold div{
+  font-weight: bold !important;
+}
+
+.grid-fontweight-normal div{
+  font-weight: normal !important;
+}
+
+/* Styles for the paging bar */
+.currentPageIndex {
+  font-weight: bold !important;
+}
+
+.pageIndex {
+  color: #0000E6;
+  text-decoration: none;
+}

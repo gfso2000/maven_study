@@ -1,0 +1,98 @@
+body{
+  background-color: #eee;
+  overflow: auto;
+  margin: 0px;
+}
+body, input, select, td {
+  font-family: Arial,Tahoma,Helvetica,sans-serif;
+  font-size: 11px;
+}
+input, select {
+  padding: 1px 0 0;
+  margin: 0px;
+  width: 200px;
+  background-color: #fff;
+  color: #000;
+}
+img{
+  border: 0px none;
+}
+td{
+  margin: 0px;
+  padding: 0px;
+}
+.cwc-btn-text {
+  font-size: 12px !important;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0px;
+  outline-color: -moz-use-text-color;
+  outline-style: none;
+  outline-width: 0px;
+  overflow:visible !important;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: auto;
+  background: transparent none no-repeat 0 0;
+  border: 0px none;
+  cursor: pointer;
+}
+.loginContainer{
+  height: 287px;
+  background-color: #036;
+}
+.loginContainer table{
+  height: 100%;
+}
+.loginLogo{
+  width: 73px;
+  padding: 25px 0 0 22px;
+  border: 0px none;
+  vertical-align: top;
+}
+.loginTitle{
+  width: 100%;
+  background: #708DA9 url(../cwc/images/backgrounds/blue_bg.png) repeat-y; /* IE */
+  background-position: left 0;
+  border: 0px none;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 0 0 40px 0;
+  background-image: -moz-linear-gradient(left, #003366, #708DA9); /* FF optimized */
+}
+.loginImage{
+  border-left: 6px #fff solid;
+  background: url(../cwc/images/backgrounds/cwc_splash.jpg) no-repeat;
+}
+.imgSpacer {
+  width: 408px;
+}
+.loginForm{
+  border-top: 6px #fff solid;
+  background: #EEE url(../cwc/images/backgrounds/gray_bg.png) repeat-x; /* IE */
+  background-image: -moz-linear-gradient(center top, #AAAAAA, #EEEEEE); /* FF optimized */
+}
+.loginLogos{
+  padding-left: 5px;
+  padding-right: 15px;
+}
+.loginLabel{
+  padding-right: 4px;
+  text-align: right;
+ }
+.loginInput{
+  padding: 5px 0 5px 0px;
+  text-align: left;
+  width: 408px;
+ }
+.loginCopyright{
+  border-width: 0;
+  border-style: solid;
+  border-color: none;
+  background-color: none;
+  width: 408;
+  vertical-align: top;
+  text-align: left;
+}

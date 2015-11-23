@@ -1,0 +1,280 @@
+.participants .add {
+	background-image: url('../images/colla/icth_add_reg_16.png');
+}
+
+.participants .remove {
+	background-image: url('../images/colla/icth_delete_16.png');
+}
+
+.messages .new {
+	background-image: url('../images/colla/ic_chat32_reg.png');
+}
+
+.messages .addlink {
+	background-image: url('../images/colla/ic_relat32_reg.png');
+}
+
+.messages {
+	margin-left: 20px;
+}
+
+.user-small {
+	display: inline;
+}
+
+.colla-msg-panel-body {
+	height: 100%;
+}
+
+.colla-messageentry {
+	margin: 2px 3px;
+	border-bottom: 1px solid gray;
+}
+
+.colla-messageentry .icon {
+	float: left;
+}
+
+.colla-messageentry .author {
+	margin-right: 3px;
+}
+
+.colla-messageentry .timestamp {
+	display: block;
+	margin-top: 2px;
+}
+
+.colla-messageentry .message {
+	margin-left: 38px;
+}
+
+.colla-messageentry .text {
+	display: inline;
+}
+
+.clearfloat {
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+body{
+  background-color: #eee;
+  overflow: auto;
+  margin: 0px;
+}
+body, input, select, td {
+  font-family: Arial,Tahoma,Helvetica,sans-serif;
+  font-size: 11px;
+}
+input, select {
+  padding: 1px 0 0;
+  margin: 0px;
+  width: 200px;
+  background-color: #fff;
+  color: #000;
+}
+img{
+  border: 0px none;
+}
+td{
+  margin: 0px;
+  padding: 0px;
+}
+.cwc-btn-text {
+  font-size: 12px !important;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0px;
+  outline-color: -moz-use-text-color;
+  outline-style: none;
+  outline-width: 0px;
+  overflow:visible !important;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: auto;
+  background: transparent none no-repeat 0 0;
+  border: 0px none;
+  cursor: pointer;
+}
+.loginContainer{
+  height: 287px;
+  background-color: #036;
+}
+.loginContainer table{
+  height: 100%;
+}
+.loginLogo{
+  width: 73px;
+  padding: 25px 0 0 22px;
+  border: 0px none;
+  vertical-align: top;
+}
+.loginTitle{
+  width: 100%;
+  background: #708DA9 url(../cwc/images/backgrounds/blue_bg.png) repeat-y; /* IE */
+  background-position: left 0;
+  border: 0px none;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 0 0 40px 0;
+  background-image: -moz-linear-gradient(left, #003366, #708DA9); /* FF optimized */
+}
+.loginImage{
+  border-left: 6px #fff solid;
+  background: url(../cwc/images/backgrounds/cwc_splash.jpg) no-repeat;
+}
+.imgSpacer {
+  width: 408px;
+}
+.loginForm{
+  border-top: 6px #fff solid;
+  background: #EEE url(../cwc/images/backgrounds/gray_bg.png) repeat-x; /* IE */
+  background-image: -moz-linear-gradient(center top, #AAAAAA, #EEEEEE); /* FF optimized */
+}
+.loginLogos{
+  padding-left: 5px;
+  padding-right: 15px;
+}
+.loginLabel{
+  padding-right: 4px;
+  text-align: right;
+ }
+.loginInput{
+  padding: 5px 0 5px 0px;
+  text-align: left;
+  width: 408px;
+ }
+.loginCopyright{
+  border-width: 0;
+  border-style: solid;
+  border-color: none;
+  background-color: none;
+  width: 408;
+  vertical-align: top;
+  text-align: left;
+}
+
+
+/* Filename : recordlist.css */
+
+/* Note:
+ * This file will be merged with hpov.css
+ */
+
+/* ExtJS Recordlist CSS overrides */
+
+.x-grid3-row-selected table{
+  background-color: #FFCC66 !important;
+}
+
+/* Forces the record list headers to be left aligned */
+.x-grid3-hd {
+  text-align: left !important;
+}
+
+/* Inherit column font-style from Row fontstyle */
+.x-grid3-row td{
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/* Rowcolor */
+.grid-rowcolor-black table{
+  color:#000000;
+}
+
+.grid-rowcolor-white table{
+  color:#ffffff;
+}
+
+.grid-rowcolor-gray table{
+  color:#808080;
+}
+
+.grid-rowcolor-light_gray table{
+  color:#e0e0e0;
+}
+
+.grid-rowcolor-dark_gray table{
+  color:#404040;
+}
+
+.grid-rowcolor-red table{
+  color: #ff0000;
+}
+
+.grid-rowcolor-dark_red table{
+  color: #990000;
+}
+
+.grid-rowcolor-green table{
+  color: #00ff00;
+}
+
+.grid-rowcolor-dark_green table{
+  color: #009900;
+}
+
+.grid-rowcolor-blue table{
+  color: #0000ff;
+}
+
+.grid-rowcolor-dark_blue table{
+  color: #003399;
+}
+
+.grid-rowcolor-yellow table{
+  color: #0000ff;
+}
+
+.grid-rowcolor-light_yellow table{
+  color: #ffff00;
+}
+
+.grid-rowcolor-cyan table{
+  color: #00ffff;
+}
+
+.grid-rowcolor-magenta table{
+  color: #ff00ff;
+}
+
+.grid-rowcolor-purple table{
+  color: #990099;
+}
+
+.grid-rowcolor-teal table{
+  color: #6699cc;
+}
+
+
+/* Row fontstyle */
+.grid-fontstyle-italic div{
+  font-style: italic !important;
+}
+
+.grid-fontstyle-normal div{
+  font-style: normal !important;
+}
+
+.grid-fontweight-bold div{
+  font-weight: bold !important;
+}
+
+.grid-fontweight-normal div{
+  font-weight: normal !important;
+}
+
+/* Styles for the paging bar */
+.currentPageIndex {
+  font-weight: bold !important;
+}
+
+.pageIndex {
+  color: #0000E6;
+  text-decoration: none;
+}
+
